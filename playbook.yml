@@ -1,0 +1,5 @@
+- name: Deploy Nginx in Kubernetes
+  hosts: k8s_master
+  become: yes
+  roles:
+    - nginx
